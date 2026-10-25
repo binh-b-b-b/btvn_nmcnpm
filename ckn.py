@@ -11,3 +11,4 @@ else:
         for j in range(min(i, k), 0, -1):
             dp[j] = (dp[j] + dp[j - 1]) % MOD
     print(dp[k])
+    print("Hello 123 abc")
